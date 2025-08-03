@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 
-interface NavbarProps {
-  onSearch: (term: string) => void;
-}
 
-const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
+
+const Navbar = () => {
   return (
     <nav className="bg-white shadow fixed w-full z-10">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">

@@ -14,7 +14,7 @@ const App: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <Navbar onSearch={setSearchTerm} />
+      <Navbar  />
       <header
         className="bg-cover bg-center h-[500px] flex items-center justify-center text-white"
         style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80)' }}

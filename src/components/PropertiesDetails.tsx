@@ -12,7 +12,7 @@ const PropertyDetails: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <Navbar onSearch={() => {}} />
+      <Navbar  />
       <div className="max-w-7xl mx-auto py-6 px-4">
         <Link to="/" className="text-blue-600 hover:underline">&larr; Back to listings</Link>
         <div className="bg-white rounded-lg shadow-md p-6 mt-4">

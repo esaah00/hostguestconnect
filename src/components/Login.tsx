@@ -17,7 +17,7 @@ const LogIn: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 pt-16">
-      <Navbar onSearch={() => {}} />
+      <Navbar  />
       <div className="max-w-7xl mx-auto py-6 px-4">
         <h1 className="text-3xl font-bold text-gray-900">Log In</h1>
         <p className="mt-4 text-gray-600">
